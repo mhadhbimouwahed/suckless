@@ -25,8 +25,7 @@ patch -p1 < dif_file_name.diff
 
 - Run `./install.sh`.
 
-## Tips
+## Best practices
 
 - Add dwm.desktop to `/usr/share/xsessions/dwm.desktop` to be able to launch it from a display manager and check that it is executable.
 - For this build to work, make sure you have a `.dwm` folder in your home directory with an `autostart.sh` script.
-- The scripts used for `dwmblocks` can be retrieved from my [dotfiles repository](https://github.com/Zedo9/dotfiles/tree/main/scripts/bin).
